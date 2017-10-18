@@ -1,3 +1,5 @@
 api/bin/
 api/obj/
 .vscode/
+tests/obj/
+tests/bin/
