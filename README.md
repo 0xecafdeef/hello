@@ -58,4 +58,4 @@ To run the Console App you will first need to start the WebApi (see above). The 
 dotnet run
 ```
 
-This will print to the console the message it recieves from the Api.
+This will print to the console the message it receives from the Api.
