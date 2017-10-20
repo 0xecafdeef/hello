@@ -1,5 +1,16 @@
 # Hello world! Coding exercise for Crowe Horwath
 
+- [Hello world! Coding exercise for Crowe Horwath](#hello-world-coding-exercise-for-crowe-horwath)
+    - [Requirements](#requirements)
+    - [My Solution](#my-solution)
+    - [Building](#building)
+        - [WebApi](#webapi)
+    - [Testing](#testing)
+    - [Running](#running)
+        - [The WebApi](#the-webapi)
+        - [The Console App](#the-console-app)
+    - [Swagger](#swagger)
+
 ## Requirements
 
 - Write a 'Hello World' program.
@@ -64,8 +75,8 @@ This will print to the console the message it receives from the Api.
 
 If you have the Api running you can interact with it through the Swagger UI. Navigate to the Swagger URL (default is <http://localhost:5002/swagger>) you will see the Swagger UI.
 
-![screenshot2](/screenshots//screen2.jpg)
+![screenshot2](screenshots\screen2.jpg)
 
 Clicking the "Try it out!" buton will execute an HTTP GET request to the Api and return the results:
 
-![screenshot1](/screenshots/screen1.jpg)
+![screenshot1](screenshots\screen1.jpg)
