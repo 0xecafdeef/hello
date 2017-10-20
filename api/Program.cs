@@ -12,14 +12,9 @@ namespace api
 {
     public class Program
     {
-        private IConfigurationRoot _configuration;
         public static void Main(string[] args)
         {
             BuildWebHost(args).Run();
-        }
-        private void BuildConfiguration()
-        {
-            
         }
         public static IWebHost BuildWebHost(string[] args)
         {
