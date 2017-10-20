@@ -5,6 +5,7 @@
     - [My Solution](#my-solution)
     - [Building](#building)
         - [WebApi](#webapi)
+        - [Console App](#console-app)
     - [Testing](#testing)
     - [Running](#running)
         - [The WebApi](#the-webapi)
@@ -34,6 +35,8 @@ To build the WebApi run:
 ```commandline
 dotnet build app\app.csproj
 ```
+
+### Console App
 
 To build the Console App:
 
