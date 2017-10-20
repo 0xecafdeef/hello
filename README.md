@@ -59,3 +59,13 @@ dotnet run
 ```
 
 This will print to the console the message it receives from the Api.
+
+## Swagger
+
+If you have the Api running you can interact with it through the Swagger UI. Navigate to the Swagger URL (default is <http://localhost:5002/swagger>) you will see the Swagger UI.
+
+![screenshot](/screenshots//screen2.jpg)
+
+Clicking the "Try it out!" buton will execute an HTTP GET request to the Api and return the results:
+
+![screenshot](/screenshots/screen1.jpg)
