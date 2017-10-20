@@ -9,7 +9,7 @@ namespace api.Controllers
         [HttpGet]
         public ActionResult Get()
         {
-            throw new NotImplementedException();
+            return new ObjectResult("Hello, world");
         }
     }
 }
