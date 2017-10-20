@@ -12,14 +12,26 @@ namespace api
 {
     public class Program
     {
+        private IConfigurationRoot _configuration;
         public static void Main(string[] args)
         {
             BuildWebHost(args).Run();
         }
-
-        public static IWebHost BuildWebHost(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
+        private void BuildConfiguration()
+        {
+            
+        }
+        public static IWebHost BuildWebHost(string[] args)
+        {
+            var builder = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json");
+            var configuration = builder.Build();
+            return WebHost.CreateDefaultBuilder(args)
+                .UseKestrel()
+                .UseUrls(configuration["URLs"])
                 .UseStartup<Startup>()
                 .Build();
+        }
     }
 }
