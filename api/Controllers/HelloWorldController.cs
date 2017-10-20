@@ -16,7 +16,7 @@ namespace api.Controllers
         [HttpGet]
         public ActionResult Get()
         {
-            return new ObjectResult("Hello, world");
+            return new ObjectResult("Hello World");
         }
     }
 }
