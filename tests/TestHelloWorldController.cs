@@ -10,7 +10,7 @@ namespace tests
         public void TestHelloResponseFromApi()
         {
             HelloWorldController controller = new HelloWorldController();
-            var result = Assert.IsType<OkResult>(controller.Get());
+            var result = Assert.IsType<ObjectResult>(controller.Get());
         }
     }
 }
