@@ -32,7 +32,7 @@ namespace api
             {
                 c.SwaggerDoc(VERSION, new Info
                 {
-                    Title = "Key-Shadowing API",
+                    Title = "Hello API",
                     Version = $"Alpha-{VERSION}",
                     Description = "RESTful API for Hello Greetings",
                     Contact = new Contact
@@ -58,7 +58,6 @@ namespace api
             {
                 app.UseDeveloperExceptionPage();
             }
-
             app.UseMvc();
         }
     }
